@@ -2,9 +2,16 @@ import "./App.css";
 import List from "./components/list";
 
 function App() {
+  const items = [
+    { text: "Chennai Super Kings" },
+    { text: "Royal Challengers Bangalore" },
+    { text: "Kolkata Knight Riders" },
+    { text: "Mumbai Indians" },
+    { text: "Gujarat Titans" },
+  ];
   return (
     <div className="App">
-      <List />
+      <List items={items} />
     </div>
   );
 }

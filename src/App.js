@@ -8,6 +8,7 @@ function App() {
     { text: "Kolkata Knight Riders" },
     { text: "Mumbai Indians" },
     { text: "Gujarat Titans" },
+    { text: "Punjab Kings" },
   ];
   return (
     <div className="App">
